@@ -11,8 +11,8 @@
   <a href="https://www.jovemprogramador.com.br/" target="_blank">
     <img src="https://img.shields.io/badge/Programa-Jovem_Programador-F78B1F?style=for-the-badge&logo=rocket&logoColor=white" alt="Jovem Programador" />
   </a>
-  <a href="https://github.com/senacsc/beneficios-estudante-ia" target="_blank">
-    <img src="https://img.shields.io/badge/Guia-Licenças_IA_&_GitHub_Pack-2EA44F?style=for-the-badge&logo=github&logoColor=white" alt="Guia de Benefícios" />
+  <a href="https://github.com/senacsc/student-licenses" target="_blank">
+    <img src="https://img.shields.io/badge/Guia-Licenças_Estudantis-2EA44F?style=for-the-badge&logo=github&logoColor=white" alt="Guia de Licenças Estudantis" />
   </a>
 </div>
 
@@ -31,7 +31,7 @@ O [**Jovem Programador**](https://www.jovemprogramador.com.br/) é uma iniciativ
 
 | Repositório | Descrição | Público-Alvo |
 | :--- | :--- | :--- |
-| **[`beneficios-estudante-ia`](https://github.com/senacsc/beneficios-estudante-ia)** | Passo a passo completo para resgatar o **GitHub Student Developer Pack**, **Google AI Plus (Gemini)** e configurar o **Google Antigravity** com o e-mail `@alunos.sc.senac.br`. | Estudantes Senac SC & Jovem Programador |
+| **[`student-licenses`](https://github.com/senacsc/student-licenses)** | Guia prático para resgatar licenças e benefícios estudantis gratuitos (GitHub Student Pack, Google AI Plus, IDEs, nuvem e ferramentas de dev) usando o e-mail `@alunos.sc.senac.br`. | Estudantes Senac SC & Jovem Programador |
 
 ---
 

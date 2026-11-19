@@ -24,20 +24,23 @@
   <!-- Elementos Decorativos Código -->
   <circle cx="1080" cy="70" r="90" fill="#F78B1F" fill-opacity="0.12" />
   <circle cx="1130" cy="200" r="60" fill="#FFFFFF" fill-opacity="0.06" />
-  <text x="960" y="155" font-family="monospace" font-size="64" font-weight="bold" fill="#FFFFFF" fill-opacity="0.1"></></text>
+  <text x="950" y="160" font-family="Consolas, Monaco, &#39;Courier New&#39;, monospace" font-size="68" font-weight="bold" fill="#FFFFFF" fill-opacity="0.12"></></text>
 
   <!-- Badge Senac SC -->
   <rect x="64" y="48" width="150" height="36" rx="8" fill="#F78B1F" />
-  <text x="139" y="72" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.5">SENAC SC</text>
+  <text x="139" y="72" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.5">SENAC SC</text>
 
   <!-- Badge Jovem Programador -->
-  <rect x="228" y="48" width="235" height="36" rx="8" fill="#FFFFFF" fill-opacity="0.15" stroke="#FFFFFF" stroke-opacity="0.3" />
-  <text x="345" y="71" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.8">🚀 JOVEM PROGRAMADOR</text>
+  <rect x="228" y="48" width="245" height="36" rx="8" fill="#FFFFFF" fill-opacity="0.15" stroke="#FFFFFF" stroke-opacity="0.3" />
+  <!-- Ícone Vetorial Foguete -->
+  <path d="M251 60.5C251 60.5 256.5 59.5 259.5 62.5C262.5 65.5 261.5 71 261.5 71L257.5 69.5L254.5 72.5L252.5 70.5L255.5 67.5L254 63.5L251 60.5Z" fill="#FFA94D" />
+  <circle cx="257.5" cy="64.5" r="1.2" fill="#003366" />
+  <text x="362" y="71" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.8">JOVEM PROGRAMADOR</text>
 
   <!-- Título Principal -->
-  <text x="64" y="142" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="800" fill="#FFFFFF">Tecnologia, Inovação & Código</text>
+  <text x="64" y="142" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="42" font-weight="800" fill="#FFFFFF">Tecnologia, Inovação & Código</text>
   
   <!-- Subtítulo -->
-  <text x="64" y="182" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#D9E6F2">Repositório oficial de projetos, trilhas de aprendizagem e iniciativas open-source</text>
-  <text x="64" y="210" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFA94D" font-weight="600">Educação Profissional • Santa Catarina</text>
+  <text x="64" y="182" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="20" fill="#D9E6F2">Repositório oficial de projetos, trilhas de aprendizagem e iniciativas open-source</text>
+  <text x="64" y="210" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="18" fill="#FFA94D" font-weight="600">Educação Profissional • Santa Catarina</text>
 </svg>
