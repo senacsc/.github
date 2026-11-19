@@ -1,0 +1,43 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#003366" />
+      <stop offset="65%" stop-color="#004C99" />
+      <stop offset="100%" stop-color="#0066CC" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F78B1F" />
+      <stop offset="100%" stop-color="#FFA94D" />
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <!-- Fundo -->
+  <rect width="1200" height="280" rx="16" fill="url(#bgGrad)" />
+  <rect width="1200" height="280" rx="16" fill="url(#grid)" />
+
+  <!-- Faixa Laranja Senac -->
+  <rect x="0" y="268" width="1200" height="12" rx="6" fill="url(#accentGrad)" />
+
+  <!-- Elementos Decorativos Código -->
+  <circle cx="1080" cy="70" r="90" fill="#F78B1F" fill-opacity="0.12" />
+  <circle cx="1130" cy="200" r="60" fill="#FFFFFF" fill-opacity="0.06" />
+  <text x="960" y="155" font-family="monospace" font-size="64" font-weight="bold" fill="#FFFFFF" fill-opacity="0.1"></></text>
+
+  <!-- Badge Senac SC -->
+  <rect x="64" y="48" width="150" height="36" rx="8" fill="#F78B1F" />
+  <text x="139" y="72" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.5">SENAC SC</text>
+
+  <!-- Badge Jovem Programador -->
+  <rect x="228" y="48" width="235" height="36" rx="8" fill="#FFFFFF" fill-opacity="0.15" stroke="#FFFFFF" stroke-opacity="0.3" />
+  <text x="345" y="71" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.8">🚀 JOVEM PROGRAMADOR</text>
+
+  <!-- Título Principal -->
+  <text x="64" y="142" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="800" fill="#FFFFFF">Tecnologia, Inovação & Código</text>
+  
+  <!-- Subtítulo -->
+  <text x="64" y="182" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#D9E6F2">Repositório oficial de projetos, trilhas de aprendizagem e iniciativas open-source</text>
+  <text x="64" y="210" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFA94D" font-weight="600">Educação Profissional • Santa Catarina</text>
+</svg>
