@@ -2,32 +2,38 @@
   <img src="./banner.svg" alt="Senac SC - Jovem Programador" width="100%" />
 </div>
 
+<div align="center">
+  <a href="https://www.jovemprogramador.com.br/" target="_blank">
+    <img src="https://www.jovemprogramador.com.br/images/jovemprogramador_logo.png" alt="Jovem Programador" height="64" />
+  </a>
+</div>
+
 <br/>
 
 <div align="center">
   <a href="https://www.sc.senac.br/" target="_blank">
-    <img src="https://img.shields.io/badge/Portal-Senac_SC-004C99?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portal Senac SC" />
+    <img src="https://img.shields.io/badge/Portal-Senac_SC-230254?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portal Senac SC" />
   </a>
   <a href="https://www.jovemprogramador.com.br/" target="_blank">
-    <img src="https://img.shields.io/badge/Programa-Jovem_Programador-F78B1F?style=for-the-badge&logo=rocket&logoColor=white" alt="Jovem Programador" />
+    <img src="https://img.shields.io/badge/Programa-Jovem_Programador-F244AC?style=for-the-badge&logo=rocket&logoColor=white" alt="Jovem Programador" />
   </a>
   <a href="https://github.com/senacsc/student-licenses" target="_blank">
-    <img src="https://img.shields.io/badge/Guia-Licenças_Estudantis-2EA44F?style=for-the-badge&logo=github&logoColor=white" alt="Guia de Licenças Estudantis" />
+    <img src="https://img.shields.io/badge/Guia-Licenças_Estudantis-630DC9?style=for-the-badge&logo=github&logoColor=white" alt="Guia de Licenças Estudantis" />
   </a>
 </div>
 
 ---
 
-### 👋 Bem-vindo ao GitHub do Senac Santa Catarina
+## 👋 Bem-vindo ao GitHub do Senac Santa Catarina
 
 Esta organização reúne materiais didáticos, projetos integradores, desafios de hackathons e guias práticos desenvolvidos por docentes e estudantes das unidades do **Senac SC** e do programa **Jovem Programador**.
 
-### 🚀 Programa Jovem Programador
+## 🚀 Programa Jovem Programador
 O [**Jovem Programador**](https://www.jovemprogramador.com.br/) é uma iniciativa de capacitação tecnológica que forma novos talentos em desenvolvimento de software em Santa Catarina, conectando estudantes diretamente às demandas reais do mercado de TI por meio de prática intensiva, mentorias e desafios colaborativos.
 
 ---
 
-### 📚 Repositórios em Destaque
+## 📚 Repositórios em Destaque
 
 | Repositório | Descrição | Público-Alvo |
 | :--- | :--- | :--- |
@@ -35,7 +41,7 @@ O [**Jovem Programador**](https://www.jovemprogramador.com.br/) é uma iniciativ
 
 ---
 
-### 🛠️ Trilhas & Tecnologias Trabalhadas
+## 🛠️ Trilhas & Tecnologias Trabalhadas
 
 <p>
   <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
@@ -52,5 +58,7 @@ O [**Jovem Programador**](https://www.jovemprogramador.com.br/) é uma iniciativ
 ---
 
 <div align="center">
-  <sub>Mantido pela comunidade docente e estudantil do <strong>Senac Santa Catarina</strong>.</sub>
+  <img src="https://img.shields.io/badge/-%3C%2F%3E_aprender_%C2%B7_programar_%C2%B7_compartilhar-48108B?style=flat-square" alt="aprender, programar, compartilhar" />
+  <br/>
+  <sub>Mantido pela comunidade docente e estudantil do <strong>Senac Santa Catarina</strong> · <a href="https://www.jovemprogramador.com.br/">Jovem Programador</a></sub>
 </div>
