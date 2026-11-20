@@ -1,51 +1,55 @@
-<svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" fill="none">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#003366" />
-      <stop offset="65%" stop-color="#004C99" />
-      <stop offset="100%" stop-color="#0066CC" />
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#230254"/>
+      <stop offset="0.55" stop-color="#48108B"/>
+      <stop offset="1" stop-color="#630DC9"/>
     </linearGradient>
-    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#F78B1F" />
-      <stop offset="100%" stop-color="#FFA94D" />
+    <radialGradient id="glow" cx="1040" cy="150" r="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F244AC" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#F244AC" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="icon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F244AC"/>
+      <stop offset="1" stop-color="#630DC9"/>
     </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1" />
+    <linearGradient id="bar" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F244AC"/>
+      <stop offset="1" stop-color="#F6A824"/>
+    </linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.6" fill="#FFFFFF" fill-opacity="0.07"/>
     </pattern>
   </defs>
 
-  <!-- Fundo -->
-  <rect width="1200" height="280" rx="16" fill="url(#bgGrad)" />
-  <rect width="1200" height="280" rx="16" fill="url(#grid)" />
+  <clipPath id="r"><rect width="1200" height="300" rx="18"/></clipPath>
+  <g clip-path="url(#r)">
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="18" fill="url(#dots)"/>
+  <rect width="1200" height="300" rx="18" fill="url(#glow)"/>
 
-  <!-- Faixa Laranja Senac -->
-  <rect x="0" y="268" width="1200" height="12" rx="6" fill="url(#accentGrad)" />
-
-  <!-- Elementos Decorativos Código -->
-  <circle cx="1080" cy="70" r="90" fill="#F78B1F" fill-opacity="0.12" />
-  <circle cx="1130" cy="200" r="60" fill="#FFFFFF" fill-opacity="0.06" />
-
-  <!-- Ícone Vetorial </> (sem entidades HTML que quebram ao copiar) -->
-  <g stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M 985 118 L 957 140 L 985 162" />
-    <path d="M 1031 112 L 1009 168" />
-    <path d="M 1055 118 L 1083 140 L 1055 162" />
+  <!-- ícone </> em losango -->
+  <g transform="translate(1030 150)">
+    <rect x="-78" y="-78" width="156" height="156" rx="34" transform="rotate(45)" fill="url(#icon)"/>
+    <rect x="-62" y="-62" width="124" height="124" rx="26" transform="rotate(45)" fill="#230254" fill-opacity="0.35"/>
+    <g stroke="#FFFFFF" stroke-width="11" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M -26 -26 L -52 0 L -26 26"/>
+      <path d="M 26 -26 L 52 0 L 26 26"/>
+      <path d="M 9 -34 L -9 34"/>
+    </g>
   </g>
 
-  <!-- Badge Senac SC -->
-  <rect x="64" y="48" width="150" height="36" rx="8" fill="#F78B1F" />
-  <text x="139" y="72" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.5">SENAC SC</text>
+  <!-- selo Senac SC -->
+  <rect x="64" y="52" width="262" height="38" rx="19" fill="#FFFFFF" fill-opacity="0.12" stroke="#FFFFFF" stroke-opacity="0.35"/>
+  <text x="195" y="77" text-anchor="middle" font-family="Raleway, 'Segoe UI', Arial, sans-serif" font-size="15" font-weight="800" letter-spacing="2" fill="#FFFFFF">SENAC SANTA CATARINA</text>
 
-  <!-- Badge Jovem Programador -->
-  <rect x="228" y="48" width="245" height="36" rx="8" fill="#FFFFFF" fill-opacity="0.15" stroke="#FFFFFF" stroke-opacity="0.3" />
-  <path d="M251 60.5C251 60.5 256.5 59.5 259.5 62.5C262.5 65.5 261.5 71 261.5 71L257.5 69.5L254.5 72.5L252.5 70.5L255.5 67.5L254 63.5L251 60.5Z" fill="#FFA94D" />
-  <circle cx="257.5" cy="64.5" r="1.2" fill="#003366" />
-  <text x="362" y="71" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.8">JOVEM PROGRAMADOR</text>
+  <!-- título -->
+  <rect x="64" y="112" width="148" height="58" rx="10" fill="#F244AC"/>
+  <text x="138" y="155" text-anchor="middle" font-family="Raleway, 'Segoe UI', Arial, sans-serif" font-size="40" font-weight="900" fill="#FFFFFF">JOVEM</text>
+  <text x="226" y="157" font-family="Raleway, 'Segoe UI', Arial, sans-serif" font-size="54" font-weight="900" letter-spacing="1" fill="#FFFFFF">PROGRAMADOR</text>
 
-  <!-- Título Principal -->
-  <text x="64" y="142" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="42" font-weight="800" fill="#FFFFFF">Tecnologia, Inovação e Código</text>
+  <text x="66" y="214" font-family="Raleway, 'Segoe UI', Arial, sans-serif" font-size="22" font-weight="600" fill="#FFFFFF" fill-opacity="0.85">Materiais, projetos e guias para quem está aprendendo a programar</text>
 
-  <!-- Subtítulo -->
-  <text x="64" y="182" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="20" fill="#D9E6F2">Repositório oficial de projetos, trilhas de aprendizagem e iniciativas open-source</text>
-  <text x="64" y="210" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="18" fill="#FFA94D" font-weight="600">Educação Profissional • Santa Catarina</text>
+  <rect x="0" y="288" width="1200" height="12" fill="url(#bar)"/>
+  </g>
 </svg>
